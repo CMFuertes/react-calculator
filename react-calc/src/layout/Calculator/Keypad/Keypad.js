@@ -3,34 +3,38 @@ import React from 'react';
 import KeypadRow from './KeypadRow/KeypadRow';
 import Button from '../../../components/Button/Button';
 
-const keypad = (props) => (
+const keypad = () => (
     <section className="keypad">
-        {props.children}
-        <KeypadRow />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <KeypadRow />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <KeypadRow />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <KeypadRow />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <KeypadRow />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
+        <KeypadRow>
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+        </KeypadRow>
+        <KeypadRow>
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+        </KeypadRow>
+        <KeypadRow>
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+        </KeypadRow>
+        <KeypadRow>
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+        </KeypadRow>
+        <KeypadRow>
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+            </KeypadRow>
     </section>
 );
 
