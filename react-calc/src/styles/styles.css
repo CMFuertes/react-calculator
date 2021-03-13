@@ -58,3 +58,12 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+.computation-screen {
+    height: 6vh;
+    font-size: 2.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
