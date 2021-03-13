@@ -22,5 +22,3 @@ export default app;
 //     </div>
 //   );
 // }
-
-export default App;
