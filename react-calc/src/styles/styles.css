@@ -115,4 +115,11 @@ body {
 .btn--large {
     width: 50%;
     color: var(--color-white);
+    background-color: var(--color-tomato);
+    transition: add .2s;
+}
+
+.btn--large:hover {
+    background-color: var(--color-white);
+    color: var(--color-tomato);
 }
