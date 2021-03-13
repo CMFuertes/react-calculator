@@ -76,3 +76,10 @@ body {
     color: var(--color-light-white);
     background-color: var(--color-tomato);
 }
+
+.keypad__row {
+    height: 11vh;
+    width: 100%; 
+    display: flex; 
+    color: white; 
+}
