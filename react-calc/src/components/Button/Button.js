@@ -1,8 +1,8 @@
 import React from 'react';
 
-const button = () => (
+const button = (props) => (
     <button className="btn">
-    1
+    {props.children}
     </button>
 );
 

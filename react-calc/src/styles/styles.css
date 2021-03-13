@@ -111,3 +111,8 @@ body {
 .btn:active {
     transform: scale(.95);
 }
+
+.btn--large {
+    width: 50%;
+    color: var(--color-white);
+}

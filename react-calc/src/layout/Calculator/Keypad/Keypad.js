@@ -1,10 +1,11 @@
 import React from 'react';
 
 import KeypadRow from './KeypadRow/KeypadRow';
-import BUtton from '../../../components/Button/Button';
+import Button from '../../../components/Button/Button';
 
-const keypad = () => (
+const keypad = (props) => (
     <section className="keypad">
+        {props.children}
         <KeypadRow />
         <Button />
         <Button />
