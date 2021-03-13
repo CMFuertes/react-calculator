@@ -19,11 +19,11 @@ body {
     --color-white: #fff;
     --color-light-white: #eee;
 
-    --color-tomator: #d40640;
+    --color-tomato: #d40640;
     --color-purple-transparent: rgba(88, 24, 60, .9);
     --color-pink-transparent: rgba(216, 14, 91, .9);
 
-    -color-orange: #ff3c00;
+    --color-orange: #ff3c00;
 
     --color-light-black: #222;
     --color-black: #000; 
@@ -66,4 +66,14 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.screen {
+    height: 25vh;
+    width: 100%; 
+    padding: 0 2rem; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    color: var(--color-light-white);
+    background-color: var(--color-tomato);
 }
