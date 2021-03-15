@@ -13,7 +13,7 @@ class Calculator extends React.Component {
         return (
 
             <main className="calculator">
-                <Screen />
+                <Screen equation={this.state.equation} result = {this.state.result} />
                 <Keypad />
             </main>
         );
