@@ -6,10 +6,11 @@ import Button from '../../../components/Button/Button';
 const keypad = () => (
     <section className="keypad">
         <KeypadRow>
-            <Button />
-            <Button />
-            <Button />
-            <Button />
+            <Button>C</Button>
+            <Button>&larr;/Button>
+            <Button>%</Button>
+            <Button>/</Button>
+
         </KeypadRow>
         <KeypadRow>
             <Button />
