@@ -5,6 +5,10 @@ import Keypad from './Keypad/Keypad';
 
 
 class Calculator extends React.Component {
+    state = {
+        equation: '', 
+        result: 0
+    }
     render() {
         return (
 
