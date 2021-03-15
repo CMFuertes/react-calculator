@@ -41,7 +41,7 @@ class Calculator extends React.Component {
 
             <main className="calculator">
                 <Screen equation={this.state.equation} result = {this.state.result} />
-                <Keypad />
+                <Keypad onButtonPress={this.onButtonPress} />
             </main>
         );
     }
