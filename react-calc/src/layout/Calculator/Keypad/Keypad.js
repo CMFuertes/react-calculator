@@ -7,7 +7,7 @@ const keypad = () => (
     <section className="keypad">
         <KeypadRow>
             <Button>C</Button>
-            <Button>&larr;/Button>
+            <Button>&larr;</Button>
             <Button>%</Button>
             <Button>/</Button>
 
