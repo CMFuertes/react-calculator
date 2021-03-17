@@ -36,6 +36,7 @@ class Calculator extends React.Component {
         this.setState({equation: '', result: 0});
       }
 
+      // class Calculator extends React.Component {
     render() {
         return (
 
