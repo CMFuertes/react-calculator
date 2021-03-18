@@ -2,7 +2,6 @@ import React from 'react';
 
 import KeypadRow from './KeypadRow/KeypadRow';
 import Button from '../../../components/Button/Button';
-import LargeButton from '../../../components/Button/LargeButton/LargeButton';
 
 const keypad = (props) => (
     <section className="keypad">
