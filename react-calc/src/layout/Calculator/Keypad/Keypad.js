@@ -37,7 +37,7 @@ const keypad = (props) => (
       <KeypadRow>
         <Button onButtonPress={props.onButtonPress}>0</Button>
         <Button onButtonPress={props.onButtonPress}>.</Button>
-        <LargeButton onButtonPress={props.onButtonPress}>=</LargeButton>
+        <Button onButtonPress={props.onButtonPress}>=</Button>
       </KeypadRow>
     </section>
   );
