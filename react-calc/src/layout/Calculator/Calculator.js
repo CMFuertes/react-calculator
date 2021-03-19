@@ -20,7 +20,7 @@ class Calculator extends React.Component {
       equation += pressedButton;
 
     } else if (['+', '-', '*', '/', '%'].indexOf(pressedButton) !== -1) {
-      equation += ' ' + pressedButton + ' ';
+      equation += ` ${pressedButton} `;
     } else if (pressedButton === '=') {
       try {
         const evalResult = eval(equation);
