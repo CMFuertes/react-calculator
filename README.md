@@ -1,5 +1,8 @@
 # React Calculator ![NPM](https://img.shields.io/npm/l/sta)
 
+## NOTES
+App is still not deployed. Plans include tinkering with the css for a different look before full launch. 
+
 ## Table Of Contents 
 
 1) [Introduction](#user) 
