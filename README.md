@@ -44,11 +44,12 @@ A simple calculator made with the guidance of Danyal Imran to better understand 
 
 
 ## Tests
+Use "npm start" to keep an eye out for any errors that may crash the app. 
 
 
 
 ## Contributing
-
+Feel free to clone and make adjustments and send me a merge request. 
 
 
 ## License
