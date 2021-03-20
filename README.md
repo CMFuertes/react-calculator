@@ -37,16 +37,13 @@ A simple calculator made with the guidance of Danyal Imran to better understand 
 
 ## Installation
 
-
-
+Make sure React is installed, no additional installations are required, as the app relies mainly on .js. 
 
 ## Usage
-
+Use this app for the most basic math calculations. 
 
 ## Tests
-Use "npm start" to keep an eye out for any errors that may crash the app. 
-
-
+Use "npm start" to run the app and keep an eye out for any errors that may cause it to not work. 
 
 ## Contributing
 Feel free to clone and make adjustments and send me a merge request. 
