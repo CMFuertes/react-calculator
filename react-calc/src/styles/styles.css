@@ -6,11 +6,12 @@
 }
 
 html {
-    font-size:62.5%;
+    font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
+    margin: 0;
     font-family: inherit;
 }
 
@@ -19,88 +20,75 @@ body {
     --color-light-white: #eee;
 
     --color-tomato: #d40640;
+    --color-light-tomato: #e00643;
     --color-purple-transparent: rgba(88, 24, 60, .9);
     --color-pink-transparent: rgba(216, 14, 91, .9);
 
-    --color-orange: #ff3c00;
-
     --color-light-black: #222;
-    --color-black: #000; 
+    --color-black: #000;
 
-    --shadow: rgba(0,0, .4);
+    --shadow: rgba(0, 0, 0, .4);
 }
 
 .app {
     height: 100vh;
     width: 100%;
-    background-image:  linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)), url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
+    background-image: linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)), url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
     background-size: cover;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .calculator {
-    height: 80vh;
-    width: 25%; 
-    box-shadow: 0 2rem 4rem var(--shadow); 
+    box-shadow: 0 2rem 4rem var(--shadow);
     background-color: var(--color-white);
 }
 
 .result-screen {
-    height: 19vh;
+    padding: 0.5rem 2rem;
     font-size: 8rem;
     font-weight: 600;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
 .computation-screen {
-    height: 6vh;
+    height: calc(44px - 0.5rem);
+    padding: 0.5rem 2rem;
     font-size: 2.5rem;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
 .screen {
-    height: 25vh;
-    width: 100%; 
-    /* padding: 0 2rem;  */
-    overflow: hidden; 
-    white-space: nowrap; 
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
     color: var(--color-light-white);
     background-color: var(--color-tomato);
 }
 
 .keypad__row {
-    height: 11vh;
-    width: 100%; 
-    display: flex; 
-    color: white; 
-}
-
-.keypad {
-    height: 55vh; 
+    height: 95px;
     width: 100%;
+    display: flex;
+    color: white;
 }
 
 .btn {
-    width: 25%;
-    height: 100%;
+    width: 8rem;
     font-size: 3rem;
     font-family: inherit;
     background-color: var(--color-white);
-    border: 1px solid transparent; 
+    border: 1px solid transparent;
     outline: none;
-    display: flex; 
+    display: flex;
     justify-content: center;
-    align-items: center; 
-    transition: all .2s; 
+    align-items: center;
+    transition: all .05s;
 }
 
 .btn:hover {
@@ -120,8 +108,7 @@ body {
 }
 
 .btn--large:hover {
-    background-color: var(--color-white);
-    color: var(--color-tomato);
+    background-color: var(--color-light-tomato);
 }
 
 .btn--primary {
@@ -129,5 +116,5 @@ body {
 }
 
 .btn--operator {
-    color: var(--color-orange);
+    color: var(--color-light-tomato);
 }
