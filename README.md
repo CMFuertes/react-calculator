@@ -1,5 +1,7 @@
 # React Calculator ![NPM](https://img.shields.io/npm/l/sta)
 
+![img](https://github.com/CMFuertes/react-calculator/blob/main/img/calcshot.png)
+
 ## NOTES
 App is still not deployed. Plans include tinkering with the css for a different look before full launch. 
 
