@@ -20,9 +20,9 @@ const keypad = (props) => (
       </KeypadRow>
       
       <KeypadRow>
-        <Button onButtonPress={props.onButtonPress}>6</Button>
-        <Button onButtonPress={props.onButtonPress}>5</Button>
         <Button onButtonPress={props.onButtonPress}>4</Button>
+        <Button onButtonPress={props.onButtonPress}>5</Button>
+        <Button onButtonPress={props.onButtonPress}>6</Button>
         <Button type="operator" onButtonPress={props.onButtonPress}>-</Button>
       </KeypadRow>
       
