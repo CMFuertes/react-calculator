@@ -38,6 +38,7 @@ https://github.com/CMFuertes/react-calculator
 ## Description
 
 A simple calculator made with the guidance of Danyal Imran to better understand React and how it works. 
+![gif](https://github.com/CMFuertes/react-calculator/blob/main/img/React%20App.gif)
 
 
 ## Installation
