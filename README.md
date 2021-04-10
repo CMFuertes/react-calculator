@@ -2,9 +2,6 @@
 
 ![img](https://github.com/CMFuertes/react-calculator/blob/main/img/calcshot.png)
 
-## NOTES
-App is still not deployed. Plans include tinkering with the css for a different look before full launch. 
-
 ## Table Of Contents 
 
 1) [Introduction](#user) 
