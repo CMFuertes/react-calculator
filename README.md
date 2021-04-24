@@ -30,7 +30,9 @@ cristhal.fuertes@gmail.com
 
 react-calculator
 
-https://github.com/CMFuertes/react-calculator 
+Deployed Link: https://cmfuertes.github.io/react-calculator/
+
+Repo: https://github.com/CMFuertes/react-calculator 
 
 ## Description
 
